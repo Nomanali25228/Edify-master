@@ -1,0 +1,293 @@
+.main1 {
+    background-color: rgba(0, 0, 0, 0.932);
+    height: 500px;
+}
+
+.mainn1 {
+    display: flex;
+    padding-top: 70px;
+}
+
+.lineings {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(to top, transparent, #251ca3, transparent);
+    height: 150px;
+    width: 5px;
+    margin-left: 20px;
+    border-radius: 10px;
+    transition: all 0.5s ease;
+    
+    width: 4px;
+    background: linear-gradient();
+    transition: all 0.5s ease;
+}
+
+.arrow {
+    font-size: 22px;
+    font-weight: 700;
+    margin: -10px 0px;
+    text-shadow: 2px;
+    color: white;
+}
+
+.skill {
+    font-size: 60px;
+    color: white;
+    margin-bottom: 10px;
+    margin-top: 90px;
+    margin-bottom: 20px;
+}
+
+.skill1 {
+    font-size: 20px;
+    color: whitesmoke;
+    width: 600px;
+    margin: 0px;
+    margin-bottom: 20px;
+}
+
+.courseinput {
+    height: 50px;
+    width: 570px;
+    border-radius: 10px 0px 0px 10px;
+    padding-left: 10px;
+    font-size: medium;
+    outline: none;
+    border: none;
+    /* margin-top: 180px; */
+}
+
+.searchbutton {
+    height: 52px;
+    width: 250px;
+    background-color: #4338ca;
+    color: white;
+    border: none;
+    font-size: 18px;
+    /* margin-top: 180px; */
+
+    border-radius: 0px 10px 10px 0px;
+}
+
+.inputdivv {
+    display: flex;
+    align-items: center;
+    margin-left: 70px;
+    margin-top: -120px;
+}
+
+.skilldiv {
+    margin-left: 30px;
+}
+
+.flexing {
+    display: flex;
+    color: white;
+    height: 140px;
+    align-items: center;
+    background: #161719;
+    width: 98%;
+    margin-left: 1%;
+    border-radius: 10px;
+    border: solid gray 1px;
+}
+
+.boxForpart {
+    background: #161719;
+    width: 220px;
+}
+
+.ptagesss {
+    color: #8A8B8C;
+    font-size: 25px;
+    padding: 0px 30px;
+}
+
+
+
+body {
+    background: #161719;
+}
+
+@keyframes slide {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+.logos {
+    overflow: hidden;
+    background: #161719;
+    white-space: nowrap;
+    position: relative;
+}
+
+.logos:before,
+.logos:after {
+    position: absolute;
+    top: 0;
+    width: 250px;
+    height: 100%;
+    content: "";
+    z-index: 2;
+}
+
+.logos:before {
+    left: 0;
+    background: linear-gradient(to left, rgba(255, 255, 255, 0), );
+}
+
+.logos:after {
+    right: 0;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0), );
+}
+
+.logos:hover .logos-slide {
+    animation-play-state: paused;
+}
+
+.logos-slide {
+    display: inline-block;
+    animation: 35s slide infinite linear;
+
+}
+
+.logos-slide img {
+    height: 30px;
+    width: 150px;
+    margin: 0 40px;
+
+}
+@media (max-width: 768px) {
+    .inputdivv {
+        flex-direction: column;
+        align-items: center;
+        margin-left: 70px;
+        margin-top: -120px;
+    }
+    
+    .arrow {
+        display: flex;
+        font-size: 22px;
+    font-weight: 700;
+    margin: -10px 0px;
+    text-shadow: 2px;
+    color: white;
+}
+.courseinput {
+    height: 50px;
+    width:300px;
+    /* width: auto; */
+    border-radius: 10px;
+    padding-left: 10px;
+    font-size: medium;
+    outline: none;
+    margin-top: -50px;
+    border: none;
+    margin-right: 160px;
+}
+.searchbutton {
+    height: 52px;
+    width: 250px;
+    background-color: #4338ca;
+    color: white;
+    border: none;
+    margin-top: 20px;
+    margin-left: -210px;
+    font-size: 18px;
+    border-radius:10px;
+}
+
+.lineing {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(to top, transparent, #251ca3, transparent);
+    height: 150px;
+    width: 5px;
+    margin-left: 20px;
+    border-radius: 10px;
+    transition: all 0.5s ease;
+    /* height: 100%; */
+    width: 4px;
+    margin-top: 20px;
+    background: linear-gradient();
+    transition: all 0.5s ease;
+}
+.skill {
+    font-size: 40px;
+    color: white;
+    margin-bottom: 10px;
+    margin-top: -90px;
+}
+
+.skill1 {
+    font-size: 13px;
+    color: whitesmoke;
+    width: auto;
+    margin: 0px;
+}
+}
+@media (max-width: 474px) {
+    .inputdivv {
+        flex-direction: column;
+        align-items: center;
+        margin-left: 70px;
+        margin-top: -120px;
+    }
+    .courseinput {
+        height: 50px;
+        width:200px;
+        margin-top: 10px;
+        /* width: auto; */
+        border-radius: 10px;
+        padding-left: -50px;
+        font-size: medium;
+        outline: none;
+        margin-left: 55px;
+        border: none;
+    }
+    .lineing {
+        background: rgb(2, 0, 36);
+        background: linear-gradient(to top, transparent, #251ca3, transparent);
+        height: 150px;
+        width: 5px;
+        margin-left: 20px;
+        border-radius: 10px;
+        transition: all 0.5s ease;
+        /* height: 100%; */
+        width: 4px;
+        margin-top: 20px;
+        background: linear-gradient();
+        transition: all 0.5s ease;
+    }
+    
+.searchbutton {
+    height: 52px;
+    width: 150px;
+    background-color: #4338ca;
+    color: white;
+    border: none;
+    margin-top: 10px;
+    margin-left: -160px;
+    font-size: 18px;
+    border-radius:10px;
+}
+
+.skill {
+    font-size: 40px;
+    color: white;
+    margin-bottom: 10px;
+    margin-top: -90px;
+}
+
+.skill1 {
+    font-size: 13px;
+    color: whitesmoke;
+    width: auto;
+    margin: 0px;
+    margin-bottom: 20px;
+}
+}

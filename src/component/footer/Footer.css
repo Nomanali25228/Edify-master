@@ -1,0 +1,187 @@
+/* General styles */
+.footermain {
+    color: white;
+    border-top: 1px solid #9fa0a1;
+    margin-top: 50px;
+    text-align: center;
+    padding: 20px;
+}
+
+.inputdiv {
+    margin-top: 18px;
+    outline: white;
+    display: flex;
+    align-items: center;
+}
+
+.subscribetext {
+    font-size: 40px;
+}
+
+.inputextdiv {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: 0 10%;
+    border: 1px solid #9fa0a1;
+    border-radius: 20px;
+    margin-top: 50px;
+    padding: 10px;
+    flex-direction: column;
+}
+
+.inputt {
+    height: 40px;
+    width: 100%;
+    max-width: 300px;
+    background: none;
+    outline: none;
+    color: white;
+    font-size: 20px;
+    padding-left: 10px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 1px solid #e3e4e7;
+}
+
+.inputbutton {
+    height: 42px;
+    padding: 5px 15px;
+    font-size: 18px;
+    color: white;
+    background-color: #2563EB;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    width: 100%;
+    max-width: 150px;
+}
+
+.cion {
+    margin-top: 20px;
+}
+
+.letskeep {
+    font-size: 30px;
+    margin-bottom: 0;
+}
+
+.findus {
+    font-size: 18px;
+    color: #9fa0a1;
+    margin-top: 20px;
+}
+
+.footerptag {
+    font-weight: 500;
+}
+
+.foter {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+/* Adjustments for larger screens */
+@media (min-width: 600px) {
+    .inputextdiv {
+        flex-direction: row;
+    }
+
+    .inputt {
+        margin-left: 50px;
+    }
+
+    .inputbutton {
+        margin-left: 20px;
+    }
+
+    .foter {
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin: 20px;
+    }
+}
+
+/* Adjustments for medium screens */
+@media (max-width: 599px) and (min-width: 400px) {
+    .subscribetext {
+        font-size: 35px;
+    }
+
+    .letskeep {
+        font-size: 26px;
+    }
+
+    .cion {
+        display: flex;
+        margin-top: 20px;
+    }
+
+    .inputextdiv {
+        flex-direction: column;
+    }
+
+    .inputt {
+        margin-left: 0;
+    }
+
+    .inputbutton {
+        margin-left: 0;
+    }
+
+    .foter {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/* Adjustments for smaller screens */
+@media (max-width: 399px) {
+    .subscribetext {
+        font-size: 30px;
+    }
+
+    .cion {
+        display: flex;
+        margin-top: 20px;
+    }
+
+    .letskeep {
+        font-size: 24px;
+    }
+
+    .inputextdiv {
+        flex-direction: column;
+    }
+
+    .inputt {
+        margin-left: 0;
+        font-size: 18px;
+    }
+
+    .inputbutton {
+        margin-left: 0;
+        font-size: 16px;
+    }
+
+    .letskeep {
+        font-size: 22px;
+    }
+
+    .findus {
+        font-size: 16px;
+    }
+
+    .footerptag {
+        font-size: 14px;
+    }
+
+    .foter {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 50px;
+    }
+}

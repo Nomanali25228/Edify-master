@@ -1,0 +1,185 @@
+.linered {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(to top, transparent, #de6666, transparent);
+    height: 200px;
+    width: 4px;
+    margin-left: 20px;
+    border-radius: 10px;
+    transition: all 0.5s ease;
+}
+
+.handshake {
+    color: #de6666;
+    font-size: 30px;
+    margin: 0px 7px;
+}
+
+.adapt {
+    font-size: 25px;
+    margin-top: 200px;
+    color: white;
+}
+
+.startover {
+    font-size: 50px;
+    color: #de6666;
+    margin-top: 10px;
+}
+
+.card1 {
+    display: flex;
+    margin-top: 40px;
+
+}
+
+.card2 {
+    display: flex;
+    margin-top: 20px;
+}
+
+.learningjourney {
+    font-size: 50px;
+    color: white;
+    margin-top: 0px;
+}
+
+.linered1 {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(to top, transparent, #de6666, transparent);
+    height: 150px;
+    width: 4px;
+    margin-left: 20px;
+    border-radius: 10px;
+    transition: all 0.5s ease;
+}
+
+.learningcard {
+    display: flex;
+    align-items: center;
+    height: 100px;
+    background-color: #161719;
+    width: 44%;
+    border-radius: 15px;
+    padding: 0px 40px;
+    margin: 0px 20px;
+    border: 2px solid #252525;
+}
+
+.icon1,
+.icon2,
+.icon3,
+.icon4 {
+    height: 40px;
+    width: 40px;
+    margin-top: 5px;
+}
+
+.icon1 {
+    color: #6857ff;
+}
+
+.icon2 {
+    color: #F5AC0C;
+}
+
+.icon3 {
+    color: #ED4B5B;
+}
+
+.icon4 {
+    color: #FEB01F;
+}
+.skilldiv{
+    margin-top: -110px;
+}
+
+.hightext {
+    color: white;
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+
+.extendtext {
+    color: #8B99AC;
+    margin-top: 5px;
+    font-size: 18px;
+}
+
+.textmaindiv {
+    margin-left: 50px;
+}
+
+/* Media query for mobile screens */
+@media screen and (max-width: 768px) {
+    .learningcard {
+        /* flex-direction: column; */
+        width: 70%;
+        /* margin: 20px 20px; */
+        padding: 20px;
+    }
+
+    .extendtext {
+        color: #8B99AC;
+        margin-top: 5px;
+        font-size: 15px;
+        margin-left: 30px;
+    }
+    .hightext {
+        color: white;
+        font-size: 21px;
+        /* margin-bottom: 10px; */
+        margin-top: 1px;
+    }
+    
+.skilldiv{
+    margin-top: 65px;
+    margin-bottom: 20px;
+}
+    
+    .adapt {
+        font-size: 25px;
+        margin-top: 200px;
+        color: white;
+
+    }
+    .card1 {
+        flex-direction: column;
+        margin: 0px 40px;
+        width: 78%;
+    }
+    
+
+
+    .card2 {
+        flex-direction: column;
+        /* margin-top: 20px; */
+        margin: 0px 40px;
+        width: 78%;
+    }
+
+    .textmaindiv {
+        margin-left: 0;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .adapt,
+    .startover,
+    .learningjourney {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .handshake {
+        text-align: center;
+        margin: 10px 0;
+    }
+}
+
+/* Ensuring each card takes full width on mobile */
+@media screen and (max-width: 768px) {
+    .learningcard {
+        width: 100%;
+        margin: 10px 0;
+    }
+}
